@@ -122,7 +122,7 @@ python scripts/build-textbook.py 我的教材.md 必修第一册
 
 ## 已知边界
 
-- **Word 版式依赖宿主**：宋体五号、Times New Roman、1.5 倍行距、四列全框线、表头跨页重复，这些是通过 DeepSeek Harness 的 Office 工具（`office_edit`／`office_render`）落地的。换到其他平台，内容能带走，版式要自己调。
+- **Word 版式依赖宿主**：宋体五号、Times New Roman、1.5 倍行距、正文与表格左对齐、正文段首 Tab、四列全框线、固定列宽、表头跨页重复，这些是通过 DeepSeek Harness 的 Office 工具（`office_edit`／`office_render`）落地的。换到其他平台，内容能带走，版式要自己调。
 - **课标覆盖范围**：必修 5 主题与选择性必修 3 模块的内容要求、教学提示、学业要求已全；学业质量水平与附录尚未录入。
 - **教材结构化摘要**：仅 `教材-必修第一册.md` 的 2.1 节作为示例，其余章节未建。
 - **学科范围**：高中化学，人教版本，默认新授课、45 分钟。
@@ -131,7 +131,7 @@ python scripts/build-textbook.py 我的教材.md 必修第一册
 
 ## 贡献
 
-欢迎补充课标条目、教材摘要、示例教案。改规则文件时，请一并更新 `references/知识库/README.md` 里的引用约定。
+欢迎补充课标条目、教材摘要、示例教案。改规则文件时，请一并更新 `references/知识库/README.md` 里的引用约定，并在 `CHANGELOG.md` 顶部记一条：版本号与日期、改了什么、落在哪个文件，同时改 `SKILL.md` 的 `version`。
 
 ## 许可
 
